@@ -50,7 +50,7 @@ function App() {
       </div>
       <div className="min-h-screen bg-[#1e1e1e] text-white flex flex-col items-center justify-center px-4">
         <h1 className="text-2xl font-semibold mb-6">What can I help with?</h1>
-        {loading && <p className="mt-4">Loading...</p>}
+       
 
         <div className="mt-6 w-full max-w-xl space-y-4">
           {blogs.map((item, index) => (
@@ -60,6 +60,7 @@ function App() {
             </div>
           ))}
         </div>
+         {loading && <p className="mt-4"><span className="loading loading-spinner loading-xs"></span></p>}
 
         <div className="bg-[#2e2e2e] w-full max-w-xl mt-8 rounded-xl flex items-center px-4 py-3">
           <input
