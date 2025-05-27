@@ -42,7 +42,7 @@ function App() {
     <>
       <div className="bg-[#1e1e1e] flex  items-center justify-between px-8 py-8">
         <div className="text-white/75">
-          <h1 className="text-2xl font-bold ">MeghaAI</h1>
+          <h1 className="text-2xl font-bold ">MeghAI</h1>
         </div>
         <div className="text-white/75">
           <h1>Login</h1>
