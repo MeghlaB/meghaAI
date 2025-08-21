@@ -56,9 +56,9 @@ function App() {
         </button>
       </header>
 
-      {/* Main Content */}
+     
       <main className="container mx-auto px-4 py-8 max-w-3xl">
-        {/* Hero Section */}
+     
         <section className="text-center mb-12">
           <h1 className="text-4xl font-bold mb-4 bg-gradient-to-r from-indigo-300 to-purple-400 bg-clip-text text-transparent">
             How can I assist you today?
@@ -119,7 +119,7 @@ function App() {
           )}
         </div>
 
-        {/* Input Area */}
+      
         <div className="sticky bottom-6 bg-gray-800/50 backdrop-blur-lg border border-gray-700 rounded-xl p-1 shadow-lg">
           <div className="flex items-center">
             <input
